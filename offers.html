@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Lover - Offers</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+	
+    <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico">
+</head>
+<body>
+    <header>
+        <div id="navbar">
+            <img src="./img/logo.png" alt="Food Lover Logo">
+            <nav role="navigation">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="offers.html">Offers</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="testimonials.html">Testimonials</a></li>
+                    <li> <a href="login.html">Login</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+            
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <style>
+        #offers {
+            height: 100vh;
+        }
+
+        .offers-items {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .offers-item {
+            flex-basis: 30%; /* Adjusts the width of each offer item */
+            box-sizing: border-box;
+            margin: 10px;
+            text-align: center; /* Centers the text and images */
+        }
+
+        .offers-item img {
+            width: 100%;
+            height: auto; /* Keeps the aspect ratio of images */
+        }
+    </style>
+    <section id="offers">
+        <div class="container">
+            <div class="title">
+                <h2>Our Special Offers</h2>
+            </div>
+            <div class="offers-items">
+                <div class="offers-item">
+                    <img src="./img/offer1.png" width="30%" height="30%" alt="Quattro Pasta">
+                    <div>
+                        <h3>Quattro Pasta</h3>
+                        <p><del>E£ 250.00</del> <span class="primary-text">E£ 180.00</span></p>
+                    </div>
+                </div>
+                <div class="offers-item">
+                    <img src="./img/offer2.png" width="30%" height="30%" alt="Vegetarian Pasta">
+                    <div>
+                        <h3>Vegetarian Pasta</h3>
+                        <p><del>E£ 155.00</del> <span class="primary-text">E£ 120.00</span></p>
+                    </div>
+                </div>
+                <div class="offers-item">
+                    <img src="./img/offer3.png" width="30%" height="30%" alt="Gluten-Free Pasta">
+                    <div>
+                        <h3>Gluten-Free Pasta</h3>
+                        <p><del>E£ 155.00</del> <span class="primary-text">E£ 130.00</span></p>
+                    </div>
+                </div>
+                
+    </section>
+
+     <!-- Footer Section -->
+     <footer id="footer">
+        <div class="container">
+            <div class="footer-content">
+                <!-- Newsletter Section -->
+                <div class="newsletter">
+                <h3>Subscribe to Our Restaurant</h3>
+                    <form action="#" method="post">
+                      <input type="email" name="email" placeholder="Enter your email" required>
+                      <button class="newsletter-button" type="submit">Subscribe</button>
+                    </form>
+                  </div>
+    
+                <!-- Social Media Icons -->
+                <div class="social-media">
+                    <h3>Follow Us</h3>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </div>
+                    
+                <!-- Copyright Notice -->
+                <div class="copyright">
+                    <p>&copy; 2025 Food Lover. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
